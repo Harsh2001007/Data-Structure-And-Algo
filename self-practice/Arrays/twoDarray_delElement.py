@@ -11,6 +11,6 @@ def delElement(arrName,rowIndex,colIndex):
         arrName = np.delete(arrName,rowIndex,colIndex)
         print(arrName)
         
-delElement(arr1,2,1)
+delElement(arr1,3,1)
 
 #np.delete(array_name,index_to_delete,axis-->0-row and 1-column)
